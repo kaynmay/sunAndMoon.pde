@@ -1,7 +1,5 @@
 sunClass sun; 
 moonClass moon;
-cloudClass cloud;
-treeClass tree;
 
 int t = 0;
 
@@ -18,8 +16,6 @@ void setup(){
   background(#2DA3EA);
   sun = new sunClass();
   moon = new moonClass();
-  cloud = new cloudClass();
-  tree = new treeClass();
   
 }
 
@@ -32,8 +28,6 @@ void draw(){
     else{
     moon.display();
     }
-  tree.display();
-  cloud.display();
   
   
 }
