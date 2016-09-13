@@ -1,1 +1,1 @@
-# sunAndMoon.pde
+Animation of a sun and moon.
